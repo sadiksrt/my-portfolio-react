@@ -1,0 +1,153 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+    height: 100vh;
+    position: relative;
+    background-image: radial-gradient(
+        circle at center center,
+        transparent 0%,
+        rgb(0, 0, 0) 85%
+      ),
+      linear-gradient(
+        78deg,
+        rgba(192, 192, 192, 0.05) 0%,
+        rgba(192, 192, 192, 0.05) 50%,
+        rgba(60, 60, 60, 0.05) 50%,
+        rgba(60, 60, 60, 0.05) 100%
+      ),
+      linear-gradient(
+        227deg,
+        rgba(97, 97, 97, 0.05) 0%,
+        rgba(97, 97, 97, 0.05) 50%,
+        rgba(52, 52, 52, 0.05) 50%,
+        rgba(52, 52, 52, 0.05) 100%
+      ),
+      linear-gradient(
+        240deg,
+        rgba(98, 98, 98, 0.05) 0%,
+        rgba(98, 98, 98, 0.05) 50%,
+        rgba(249, 249, 249, 0.05) 50%,
+        rgba(249, 249, 249, 0.05) 100%
+      ),
+      linear-gradient(
+        187deg,
+        rgba(1, 1, 1, 0.05) 0%,
+        rgba(1, 1, 1, 0.05) 50%,
+        rgba(202, 202, 202, 0.05) 50%,
+        rgba(202, 202, 202, 0.05) 100%
+      ),
+      linear-gradient(
+        101deg,
+        rgba(61, 61, 61, 0.05) 0%,
+        rgba(61, 61, 61, 0.05) 50%,
+        rgba(254, 254, 254, 0.05) 50%,
+        rgba(254, 254, 254, 0.05) 100%
+      ),
+      linear-gradient(
+        176deg,
+        rgba(237, 237, 237, 0.05) 0%,
+        rgba(237, 237, 237, 0.05) 50%,
+        rgba(147, 147, 147, 0.05) 50%,
+        rgba(147, 147, 147, 0.05) 100%
+      ),
+      linear-gradient(
+        304deg,
+        rgba(183, 183, 183, 0.05) 0%,
+        rgba(183, 183, 183, 0.05) 50%,
+        rgba(57, 57, 57, 0.05) 50%,
+        rgba(57, 57, 57, 0.05) 100%
+      ),
+      radial-gradient(circle at center center, hsl(351, 4%, 12%), hsl(351, 4%, 12%));;
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  .intro {
+    color:rgb(155, 233, 29);
+    font-size: 1.5rem;
+  }
+  
+  .name {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .title {
+    display: flex;
+    font-size: 2.5rem;
+    color: rgb(155, 233, 29);
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(155, 233, 29);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #00a87e;
+  }
+  
+  .image-container {
+    max-width: 400px;
+  }
+  
+  .developer-image {
+    width: 100%;
+    height: auto;
+    display: center;
+  }
+  
+  .scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .scroll-indicator p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .arrow {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    transform: rotate(45deg);
+    margin-top: 10px;
+  }
+  
+  .arrow.down {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(10px);
+    }
+    60% {
+      transform: translateY(5px);
+    }
+  }
+  
